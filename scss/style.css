@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 1rem;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+body {
+  background: #5c5c52;
+  color: white;
+}
+
+.score-board {
+  padding: 15px 20px;
+  width: 200px;
+  border-radius: 10%;
+  border: 1px solid white;
+  margin: 0 auto;
+  margin-top: 1rem;
+  position: relative;
+  font-size: 46px;
+  text-align: center;
+}
+
+.badge {
+  border: 1px solid red;
+  background: red;
+  padding: 0.2rem 0.6rem;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+#user-label {
+  position: absolute;
+  top: 30px;
+  left: -25px;
+}
+
+#computer-label {
+  position: absolute;
+  top: 30px;
+  right: -25px;
+}
+
+.result {
+  font-size: 40px;
+}
+
+.result > p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.choices {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.choice {
+  margin: 0 20px;
+  padding: 10px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.choice:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 0 30px black;
+}
+
+.green-shadow {
+  box-shadow: 0 30px green;
+}
+
+.red-shadow {
+  box-shadow: 0 30px red;
+}
+
+.grey-shadow {
+  box-shadow: 0 30px grey;
+}
+
+#action-message {
+  text-align: center;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
